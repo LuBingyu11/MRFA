@@ -36,7 +36,7 @@ Checkpoints
 ```
 
 ## Datasets
-Download the FLIR Aligned Dataset from [here](https://drive.google.com/drive/folders/18XmdzKj0sGOFt0r4LmwMo9TsVNpyKEzT?usp=sharing), and extract it into the `Datasets` folder. The folder should have the following structure:
+Download the FLIR Aligned Dataset from [here](https://drive.google.com/drive/folders/12onA1yVmVEX0t2h8sFb3-7mlfhuiL5vN?usp=sharing), and extract it into the `Datasets` folder. The folder should have the following structure:
 ```
 Datasets
 ├── FLIR_Aligned

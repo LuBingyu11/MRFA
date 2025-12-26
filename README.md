@@ -84,11 +84,11 @@ bash bash/val_m3fd_full.sh
 
 ## Qualitative Results on FlIR Aligned:
 <div align="center">
-<img src="./fig/flir.png" width="700" height="580"/>
+<img src="./fig/flir.png" width="500" height="580"/>
 </div>
 
 
 ## Qualitative Results on M3FD:
 <div align="center">
-<img src="./fig/m3fd.png" width="700" height="420"/>
+<img src="./fig/m3fd.png" width="500" height="420"/>
 </div>

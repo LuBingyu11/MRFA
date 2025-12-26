@@ -23,7 +23,9 @@ pip install -r requirements.txt
 ```
 
 ## Checkpoints
-Download model checkpoints from [here](https://drive.google.com/drive/folders/1Exw4_eq8QJgrmgs3gQE9d9mrYim8UHv5?usp=sharing), and directly extract it into the `Checkpoints` folder. The folder should have the following structure:
+Assume that `$ROOT` is the root directory.
+
+Download model checkpoints from [here](https://drive.google.com/drive/folders/1Exw4_eq8QJgrmgs3gQE9d9mrYim8UHv5?usp=sharing), and directly extract it into the `$ROOT/Checkpoints` folder. The folder should have the following structure:
 ```
 Checkpoints
 ├── FLIR_Aligned
@@ -36,7 +38,7 @@ Checkpoints
 ```
 
 ## Datasets
-Download the FLIR Aligned Dataset from [here](https://drive.google.com/drive/folders/12onA1yVmVEX0t2h8sFb3-7mlfhuiL5vN?usp=sharing), and extract it into the `Datasets` folder. The folder should have the following structure:
+Download the FLIR Aligned Dataset from [here](https://drive.google.com/drive/folders/12onA1yVmVEX0t2h8sFb3-7mlfhuiL5vN?usp=sharing), and extract it into the `$ROOT/Datasets` folder. The folder should have the following structure:
 ```
 Datasets
 ├── FLIR_Aligned
@@ -63,6 +65,7 @@ python train_fusion.py Datasets/FLIR_Aligned --dataset flir_aligned_full --therm
 ```
 python train_fusion.py Datasets/M3FD --dataset m3fd_full --rgb-checkpoint-path Checkpoints/M3FD/Single_Modality_Models/m3fd_rgb_backbone.pth.tar --thermal-checkpoint-path Checkpoints/M3FD/Single_Modality_Models/m3fd_thermal_backbone.pth.tar --init-fusion-head-weights thermal --num-classes 6 --rgb_mean 0.49151019 0.50717567 0.50293698 --rgb_std 0.1623529 0.14178433 0.13799928 --thermal_mean 0.33000296 0.33000296 0.33000296 --thermal_std 0.18958051 0.18958051 0.18958051 --model efficientdetv2_dt --batch-size=8 --epochs=50 --branch fusion --freeze-layer fusion_mrf --att_type mrf
 ```
+**Note**:The checkpoints obtained during training will be saved in `$ROOT/output`.
 
 ## Validation
 ### Validate Single Modality Checkpoins

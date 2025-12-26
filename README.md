@@ -81,3 +81,14 @@ bash bash/val_flir_full.sh
 ```
 bash bash/val_m3fd_full.sh
 ```
+
+## Qualitative Results on FlIR Aligned:
+<div align="center">
+<img src="./fig/flir.jpg" width="700" height="580"/>
+</div>
+
+
+## Qualitative Results on M3FD:
+<div align="center">
+<img src="./fig/m3fd.jpg" width="700" height="420"/>
+</div>

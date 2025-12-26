@@ -32,7 +32,6 @@ Checkpoints
 │   ├── Fusion_Models
 │   └── Single_Modality_Models
 └── M3FD
-    ├── Classifier
     ├── Fusion_Models
     └── Single_Modality_Models
 ```

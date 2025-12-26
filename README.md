@@ -90,5 +90,5 @@ bash bash/val_m3fd_full.sh
 
 ## Qualitative Results on M3FD:
 <div align="center">
-<img src="./fig/m3fd.png" width="500" height="480"/>
+<img src="./fig/m3fd.png" width="500" height="580"/>
 </div>

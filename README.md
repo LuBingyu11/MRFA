@@ -82,6 +82,18 @@ bash bash/val_flir_full.sh
 bash bash/val_m3fd_full.sh
 ```
 
+## Comparison with SOTA on FlIR Aligned:
+
+<div align="center">
+<img src="./doc/sota_flir.png" width="640" height="590"/>
+</div>
+
+## Comparison with SOTA on M3FD:
+
+<div align="center">
+<img src="./doc/sota_m3fd.png" width="640" height="590"/>
+</div>
+
 ## Qualitative Results on FlIR Aligned:
 <div align="center">
 <img src="./fig/flir.png" width="500" height="580"/>
